@@ -4,7 +4,8 @@
   "description": "Custom Markdownlint rule to validate links",
   "main": "index.js",
   "scripts": {
-    "test": "nodeunit test/index.js"
+    "test": "nodeunit test/index.js",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
     "test": "test"
   },
   "devDependencies": {
+    "eslint": "^4.19.1",
     "nodeunit": "^0.11.2"
   }
 }
