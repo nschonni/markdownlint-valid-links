@@ -4,7 +4,7 @@
   "description": "Custom Markdownlint rule to validate links",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodeunit test/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/nschonni/markdownlint-valid-links/issues"
   },
-  "homepage": "https://github.com/nschonni/markdownlint-valid-links#readme"
+  "homepage": "https://github.com/nschonni/markdownlint-valid-links#readme",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "nodeunit": "^0.11.2"
+  }
 }
