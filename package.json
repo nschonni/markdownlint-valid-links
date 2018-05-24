@@ -1,0 +1,22 @@
+{
+  "name": "markdownlint-valid-links",
+  "version": "1.0.0",
+  "description": "Custom Markdownlint rule to validate links",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nschonni/markdownlint-valid-links.git"
+  },
+  "keywords": [
+    "markdownlint-rules"
+  ],
+  "author": "Nick Schonning <nschonni@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nschonni/markdownlint-valid-links/issues"
+  },
+  "homepage": "https://github.com/nschonni/markdownlint-valid-links#readme"
+}
